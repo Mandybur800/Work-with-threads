@@ -1,7 +1,7 @@
 import org.apache.log4j.Logger;
 
 public class RunnableExample implements Runnable {
-    private static final Logger logger = Logger.getLogger(ThreadExample.class);
+    private static final Logger logger = Logger.getLogger(RunnableExample.class);
     private static final int MAX_COUNTER = 100;
     private Counter counter;
 
@@ -11,14 +11,14 @@ public class RunnableExample implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Runnable example "
+        logger.info("Runnable example "
                 + Thread.currentThread().getName() + "was started..");
         while (counter.getCount() < MAX_COUNTER) {
             long count = counter.getCount();
-            logger.info(Thread.currentThread().getName() + ": " + ++count);
+            logger.info(Thread.currentThread().getName() + " (): " + ++count);
             counter.setCount(count);
         }
-        System.out.println("Runnable example "
+        logger.info("Runnable example "
                 + Thread.currentThread().getName() + "was finished");
     }
 }

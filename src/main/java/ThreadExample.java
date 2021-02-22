@@ -11,12 +11,12 @@ public class ThreadExample extends Thread {
 
     @Override
     public void run() {
-        System.out.println("Thread example " + Thread.currentThread().getName() + "was started..");
+        logger.info("Thread example " + Thread.currentThread().getName() + "was started..");
         while (counter.getCount() < MAX_COUNTER) {
             long count = counter.getCount();
             logger.info(Thread.currentThread().getName() + ": " + ++count);
             counter.setCount(count);
         }
-        System.out.println("Thread example " + Thread.currentThread().getName() + "was finished");
+        logger.info("Thread example " + Thread.currentThread().getName() + "was finished");
     }
 }
