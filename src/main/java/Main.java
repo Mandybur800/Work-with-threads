@@ -3,9 +3,7 @@ public class Main {
         Counter counter = new Counter();
         ThreadExample threadExample1 = new ThreadExample(counter);
         threadExample1.start();
-        ThreadExample threadExample2 = new ThreadExample(counter);
-        threadExample2.start();
-        RunnableExample runnableExample = new RunnableExample();
+        RunnableExample runnableExample = new RunnableExample(counter);
         new Thread(runnableExample).start();
     }
 }
