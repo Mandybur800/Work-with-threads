@@ -5,7 +5,7 @@ public class Counter {
         return count;
     }
 
-    public void setCount(long count) {
-        this.count = count;
+    public void increment() {
+        this.count++;
     }
 }

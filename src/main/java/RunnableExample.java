@@ -16,7 +16,7 @@ public class RunnableExample implements Runnable {
         while (counter.getCount() < MAX_COUNTER) {
             long count = counter.getCount();
             logger.info(Thread.currentThread().getName() + " (): " + ++count);
-            counter.setCount(count);
+            counter.increment();
         }
         logger.info("Runnable example "
                 + Thread.currentThread().getName() + "was finished");
