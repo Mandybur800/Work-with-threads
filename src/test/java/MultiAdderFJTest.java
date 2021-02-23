@@ -1,5 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
-
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Collectors;
@@ -22,7 +21,9 @@ class MultiAdderFJTest {
 
     @Test
     void getSum_Ok() {
+        Assertions.assertEquals(0, forkJoinPool.invoke(new MultiAdderFJ(new ArrayList<>())));
         Assertions.assertEquals(1_000_000, forkJoinPool.invoke(new MultiAdderFJ(collect)));
-        Assertions.assertEquals(500_000, forkJoinPool.invoke(new MultiAdderFJ(collectHalfMillion)));
+        Assertions.assertEquals(500_000,
+                forkJoinPool.invoke(new MultiAdderFJ(collectHalfMillion)));
     }
 }

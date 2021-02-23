@@ -16,7 +16,7 @@ public class MultiAdderExecutor implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        return numbers.stream().mapToInt(Integer::valueOf).sum();
+        return numbers.stream().reduce(0, Integer::sum);
     }
 
     public static int getSum(List<Integer> list, int threads) {

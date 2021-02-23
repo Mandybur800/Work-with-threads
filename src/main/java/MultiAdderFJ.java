@@ -31,6 +31,6 @@ public class MultiAdderFJ extends RecursiveTask<Integer> {
     }
 
     private Integer processing() {
-        return numbers.stream().mapToInt(Integer::valueOf).sum();
+        return numbers.stream().reduce(0, Integer::sum);
     }
 }
