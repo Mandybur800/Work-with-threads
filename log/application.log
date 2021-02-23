@@ -1,0 +1,104 @@
+18:19:33,048 INFO  RunnableExample:14 - Runnable example Thread-1was started..
+18:19:33,047 INFO  ThreadExample:14 - Thread example Thread-0was started..
+18:19:33,071 INFO  ThreadExample:17 - Thread-0: 2
+18:19:33,071 INFO  ThreadExample:17 - Thread-0: 3
+18:19:33,072 INFO  ThreadExample:17 - Thread-0: 4
+18:19:33,072 INFO  ThreadExample:17 - Thread-0: 5
+18:19:33,072 INFO  ThreadExample:17 - Thread-0: 6
+18:19:33,072 INFO  ThreadExample:17 - Thread-0: 7
+18:19:33,074 INFO  ThreadExample:17 - Thread-0: 8
+18:19:33,074 INFO  ThreadExample:17 - Thread-0: 9
+18:19:33,072 INFO  RunnableExample:18 - Thread-1 (): 1
+18:19:33,075 INFO  RunnableExample:18 - Thread-1 (): 11
+18:19:33,075 INFO  RunnableExample:18 - Thread-1 (): 12
+18:19:33,075 INFO  RunnableExample:18 - Thread-1 (): 13
+18:19:33,075 INFO  RunnableExample:18 - Thread-1 (): 14
+18:19:33,075 INFO  RunnableExample:18 - Thread-1 (): 15
+18:19:33,075 INFO  ThreadExample:17 - Thread-0: 10
+18:19:33,076 INFO  RunnableExample:18 - Thread-1 (): 16
+18:19:33,076 INFO  RunnableExample:18 - Thread-1 (): 18
+18:19:33,076 INFO  ThreadExample:17 - Thread-0: 17
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 20
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 21
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 22
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 23
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 24
+18:19:33,076 INFO  RunnableExample:18 - Thread-1 (): 19
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 25
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 27
+18:19:33,077 INFO  RunnableExample:18 - Thread-1 (): 26
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 28
+18:19:33,077 INFO  RunnableExample:18 - Thread-1 (): 29
+18:19:33,078 INFO  RunnableExample:18 - Thread-1 (): 31
+18:19:33,078 INFO  RunnableExample:18 - Thread-1 (): 32
+18:19:33,077 INFO  ThreadExample:17 - Thread-0: 30
+18:19:33,078 INFO  ThreadExample:17 - Thread-0: 34
+18:19:33,078 INFO  ThreadExample:17 - Thread-0: 35
+18:19:33,078 INFO  ThreadExample:17 - Thread-0: 36
+18:19:33,078 INFO  ThreadExample:17 - Thread-0: 37
+18:19:33,078 INFO  ThreadExample:17 - Thread-0: 38
+18:19:33,078 INFO  ThreadExample:17 - Thread-0: 39
+18:19:33,078 INFO  RunnableExample:18 - Thread-1 (): 33
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 41
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 42
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 43
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 44
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 45
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 46
+18:19:33,079 INFO  ThreadExample:17 - Thread-0: 40
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 47
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 49
+18:19:33,079 INFO  ThreadExample:17 - Thread-0: 48
+18:19:33,079 INFO  RunnableExample:18 - Thread-1 (): 50
+18:19:33,080 INFO  ThreadExample:17 - Thread-0: 51
+18:19:33,080 INFO  RunnableExample:18 - Thread-1 (): 52
+18:19:33,080 INFO  RunnableExample:18 - Thread-1 (): 54
+18:19:33,080 INFO  ThreadExample:17 - Thread-0: 53
+18:19:33,080 INFO  ThreadExample:17 - Thread-0: 56
+18:19:33,080 INFO  ThreadExample:17 - Thread-0: 57
+18:19:33,080 INFO  ThreadExample:17 - Thread-0: 58
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 59
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 60
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 61
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 62
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 63
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 64
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 65
+18:19:33,081 INFO  ThreadExample:17 - Thread-0: 66
+18:19:33,082 INFO  ThreadExample:17 - Thread-0: 67
+18:19:33,082 INFO  ThreadExample:17 - Thread-0: 68
+18:19:33,082 INFO  ThreadExample:17 - Thread-0: 69
+18:19:33,080 INFO  RunnableExample:18 - Thread-1 (): 55
+18:19:33,082 INFO  RunnableExample:18 - Thread-1 (): 71
+18:19:33,082 INFO  RunnableExample:18 - Thread-1 (): 72
+18:19:33,082 INFO  RunnableExample:18 - Thread-1 (): 73
+18:19:33,082 INFO  RunnableExample:18 - Thread-1 (): 74
+18:19:33,082 INFO  ThreadExample:17 - Thread-0: 70
+18:19:33,082 INFO  RunnableExample:18 - Thread-1 (): 75
+18:19:33,082 INFO  ThreadExample:17 - Thread-0: 76
+18:19:33,082 INFO  RunnableExample:18 - Thread-1 (): 77
+18:19:33,083 INFO  ThreadExample:17 - Thread-0: 78
+18:19:33,083 INFO  RunnableExample:18 - Thread-1 (): 79
+18:19:33,083 INFO  ThreadExample:17 - Thread-0: 80
+18:19:33,083 INFO  ThreadExample:17 - Thread-0: 82
+18:19:33,083 INFO  RunnableExample:18 - Thread-1 (): 81
+18:19:33,083 INFO  RunnableExample:18 - Thread-1 (): 84
+18:19:33,083 INFO  RunnableExample:18 - Thread-1 (): 85
+18:19:33,083 INFO  RunnableExample:18 - Thread-1 (): 86
+18:19:33,083 INFO  ThreadExample:17 - Thread-0: 83
+18:19:33,083 INFO  ThreadExample:17 - Thread-0: 88
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 89
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 90
+18:19:33,083 INFO  RunnableExample:18 - Thread-1 (): 87
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 91
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 93
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 94
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 95
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 96
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 97
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 98
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 99
+18:19:33,084 INFO  ThreadExample:17 - Thread-0: 100
+18:19:33,084 INFO  RunnableExample:18 - Thread-1 (): 92
+18:19:33,085 INFO  ThreadExample:19 - Thread example Thread-0was finished
+18:19:33,085 INFO  RunnableExample:20 - Runnable example Thread-1was finished
