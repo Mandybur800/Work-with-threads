@@ -15,7 +15,7 @@ class MultiAdderFJTest {
     private static ForkJoinPool forkJoinPool;
 
     @BeforeAll
-    static void beforeAll() {
+    public static void beforeAll() {
         forkJoinPool = ForkJoinPool.commonPool();
         collect = Stream.iterate(1, n -> n).limit(1_000_000).collect(Collectors.toList());
         collectHalfMillion = Stream.iterate(1, n -> n).limit(500_000).collect(Collectors.toList());
