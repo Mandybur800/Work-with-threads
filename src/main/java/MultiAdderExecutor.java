@@ -6,20 +6,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class MultiAdderExecutor implements Callable<Integer> {
+public class MultiAdderExecutor {
     private static final int LIMIT = 1000;
-    private final List<Integer> numbers;
 
-    public MultiAdderExecutor(List<Integer> numbers) {
-        this.numbers = numbers;
-    }
-
-    @Override
-    public Integer call() throws Exception {
-        return numbers.stream().reduce(0, Integer::sum);
-    }
-
-    public static int getSum(List<Integer> list, int threads) {
+    public int getSum(List<Integer> list, int threads) {
         if (threads <= 0 || threads > LIMIT) {
             throw new RuntimeException("You try to create incorrect number of threads");
         }
@@ -27,7 +17,7 @@ public class MultiAdderExecutor implements Callable<Integer> {
         List<Callable<Integer>> tasks = new ArrayList<>();
         for (int i = 0; i < list.size(); i += list.size() / threads) {
             int to = Math.min((i + list.size() / threads), list.size());
-            tasks.add(new MultiAdderExecutor(list.subList(i, to)));
+            tasks.add(new MyMultiAdder(list.subList(i, to)));
         }
         try {
             List<Future<Integer>> futures = executor.invokeAll(tasks);

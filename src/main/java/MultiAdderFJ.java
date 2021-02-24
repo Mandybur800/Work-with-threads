@@ -20,7 +20,7 @@ public class MultiAdderFJ extends RecursiveTask<Integer> {
                     .mapToInt(ForkJoinTask::join)
                     .sum();
         }
-        return processing();
+        return process();
     }
 
     private Collection<MultiAdderFJ> createSubtasks() {
@@ -30,7 +30,7 @@ public class MultiAdderFJ extends RecursiveTask<Integer> {
         return dividedTasks;
     }
 
-    private Integer processing() {
+    private Integer process() {
         return numbers.stream().reduce(0, Integer::sum);
     }
 }
